@@ -1,15 +1,12 @@
 # ft_irc
 
-Serveur IRC écrit en **C++98**, compatible avec les clients IRC standards (WeeChat, HexChat, irssi…).
+Serveur IRC écrit en **C++98**
 
 ## Fonctionnalités
 
 - Authentification par mot de passe (`PASS`, `NICK`, `USER`)
-- Gestion de plusieurs clients simultanés avec des sockets non bloquants et `poll()` [à adapter : `select` / `epoll`]
-- Salons : `JOIN`, `PART`, `TOPIC`, `NAMES`
-- Messages privés et messages de salon : `PRIVMSG`
-- Commandes d'opérateur : `KICK`, `INVITE`, `TOPIC`, `MODE`
-- Modes de salon : `i` (sur invitation), `t` (topic réservé), `k` (clé), `o` (opérateur), `l` (limite d'utilisateurs)
+- Gestion de plusieurs clients simultanés avec des sockets non bloquants et `poll()`, `epoll`
+
 
 ## Prérequis
 
